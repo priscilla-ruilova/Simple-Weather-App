@@ -2,21 +2,12 @@
 
 ### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-### How to submit your code for review:
+![Screenshot of front page of web app](assets/Simple%20Weather%20App.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Step-by-step 
+### - I found an API that could take in a city and output temperature
+### - I built the HTML file first having an idea for a simple input for the city and button for the click event 
+### - I built out the JavaScript file by creating a click event on the button that ran a function. 
+### - This function fetched data from the weather API and printed this data in the DOM
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
