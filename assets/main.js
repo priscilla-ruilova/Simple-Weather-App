@@ -5,7 +5,7 @@ const inputCity = document.querySelector('input').value
 const apiKey = '500dc77b4c3c4c9faef75907262309'
 
 
-const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${inputCity}&aqi=no)`
+const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${inputCity}&aqi=no)`
 
 fetch (url)
     .then (res => res.json())
